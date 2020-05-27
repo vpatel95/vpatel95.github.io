@@ -36,14 +36,15 @@ a img {
   position: fixed;
   top: 0;
   left: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Monaco', 'Courier New', 'Montserrat', sans-serif;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
   background-color: #fafafa;
   line-height: 100px;
-  font-size: 15px;
+  font-size: 40px;
+  font-weight: 100;
   z-index: 1000;
 }
 
