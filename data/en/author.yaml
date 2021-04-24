@@ -1,0 +1,13 @@
+name: "Ved Patel"
+nickname: "Ved"
+
+greeting: "Hello, I am"
+image: "images/vp.jpeg"
+
+contactInfo:
+    email: "patelved95@gmail.com"
+
+summary:
+    - I am a Developer
+    - I love networks
+    - I code in C, C++, Python and Golang
