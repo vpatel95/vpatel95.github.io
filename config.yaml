@@ -21,6 +21,7 @@ enableEmoji: true
 params:
     gitRepo: https://github.com/vpatel95/vpatel95.github.io
     enableBlogPost: false
+    background: "images/bg.jpg"
     logo:
         inverted: "images/logo_white.png"
         main: "images/logo_black.png"
