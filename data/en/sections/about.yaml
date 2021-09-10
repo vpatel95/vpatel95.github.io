@@ -6,14 +6,14 @@ section:
     showOnNavbar: true
     template: sections/about.html
 
-designation: Graduate Student
+designation: Member of Technical Staff
 
 company:
-    name: Pennsylvania State University
-    url: "https://psu.edu"
+    name: VMware, Inc.
+    url: "https://www.vmware.com"
 
 resume: "files/vedpatel.pdf"
-summary: "I am currently pursuing Masters of Science in Computer Science at Pennsylvania State University. I have experience as a Software Engineer in field of computer networking and fullstack development. I am skilled in C, C++, Python and Golang"
+summary: "Currently working as Member of Technical Staff at VMware SD-WAN. I have worked on SD-WAN Data plane modules of Dynamic path selection and IPSEC. I am skilled in C, C++, Python and Golang"
 
 socialLinks:
     - name: Github

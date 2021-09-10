@@ -7,6 +7,17 @@ section:
 
 experiences:
     - company:
+        name: VMware, Inc.
+        url: "https://www.vmware.com"
+        location: Palo Alto, California
+        overview: "VMware SD-WAN (formerly known as VeloCloud) converges networking and security delivered as a cloud-hosted service"
+      positions:
+          - designation: Member of Technical Staff
+            start: Jul 2021
+            responsibilities:
+                - Currently working in data plane IPSEC module
+
+    - company:
         name: Lavelle Networks
         url: "https://lavellenetworks.com"
         location: Bangalore, India
