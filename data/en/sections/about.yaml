@@ -12,7 +12,6 @@ company:
     name: VMware, Inc.
     url: "https://www.vmware.com"
 
-resume: "files/vedpatel.pdf"
 summary: "Currently working as Member of Technical Staff at VMware SD-WAN. I have worked on SD-WAN Data plane modules of Dynamic path selection and IPSEC. I am skilled in C, C++, Python and Golang"
 
 socialLinks:
