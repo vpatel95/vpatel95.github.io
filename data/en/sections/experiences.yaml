@@ -32,6 +32,9 @@ experiences:
                 - Packet Loss Ratio - PLR calculation for path in data plane to assess path quality for flow-based load balancing using C
                 - App ID - Layer 7 application identification of tunneled enterprise network traffic in network device data plane for policy based control using C and Golang.
                 - Stats Engine - Collect statistics from data plane, perform analytic operations and send the data to SDN controller application for visualization using Python.
+                - Hierarchial Data Cache - Generic function cache middleware to improve the cache hit rates improving the overall cache hit ratio by 84% using redis and a custom in-memory cache
+                - Access Control - API authorization in SDN controller application based on multiple segregation of user’s role in organization using Python anf Ruby
+                - IDS - Control plane and SDN controller application module for IDS interconnected with each other to monitor and visualize real-time network traffic threats from data plane using Django, AngularJS (1.x) and Ruby
           - designation: Software Engineer Intern
             start: Dec 2017
             end: Apr 2018
