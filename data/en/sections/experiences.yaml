@@ -15,7 +15,8 @@ experiences:
           - designation: Member of Technical Staff
             start: Jul 2021
             responsibilities:
-                - Currently working in data plane IPSEC module
+                - Dataplane Security - Contributing to the Federal charter in area of IKE/IPSEC. Worked on IKE library migration to achieve FIPS compliance
+                - IKE Logging - Designed and developed logging infrastructure to provide centralized control over information printed and enable per peer debugging for IKE/IPsec module
 
     - company:
         name: Lavelle Networks
