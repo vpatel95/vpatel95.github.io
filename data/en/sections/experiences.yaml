@@ -7,6 +7,16 @@ section:
 
 experiences:
     - company:
+        name: "Juniper Networks"
+        url: "https://www.juniper.net"
+        location: "Sunnyvale, California"
+      positions:
+        - designation: Software Engineer 3
+          start: Dec 2022
+          responsibilities:
+              - Work on Contrail vRouter Agent for CN2 deployment
+
+    - company:
         name: VMware, Inc.
         url: "https://www.vmware.com"
         location: Palo Alto, California
@@ -14,9 +24,11 @@ experiences:
       positions:
           - designation: Member of Technical Staff
             start: Jul 2021
+            start: Dec 2022
             responsibilities:
                 - Dataplane Security - Contributing to the Federal charter in area of IKE/IPSEC. Worked on IKE library migration to achieve FIPS compliance
                 - IKE Logging - Designed and developed logging infrastructure to provide centralized control over information printed and enable per peer debugging for IKE/IPsec module
+                - Worked on Advanced Thread Protection and optimised existing logging infrastructure by introducing in memory log buffering to reduce file writes
 
     - company:
         name: Lavelle Networks

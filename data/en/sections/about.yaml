@@ -6,13 +6,13 @@ section:
     showOnNavbar: true
     template: sections/about.html
 
-designation: Member of Technical Staff
+designation: Software Engineer 3
 
 company:
-    name: VMware, Inc.
-    url: "https://www.vmware.com"
+    name: Juniper Networks
+    url: "https://www.juniper.net"
 
-summary: "Currently working as Member of Technical Staff at VMware SD-WAN. I have worked on SD-WAN Data plane modules of Dynamic path selection and IPSEC. I am skilled in C, C++, Python and Golang"
+summary: "Currently working as Software Engineer with Contrail team at Juniper Networks. I have also worked on SD-WAN Data plane modules of Dynamic path selection and IPSEC. I am skilled in C, C++, Python and Golang"
 
 socialLinks:
     - name: Github
