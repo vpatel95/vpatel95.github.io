@@ -14,6 +14,13 @@ buttons:
       filter: "hobby"
 
 projects:
+    - name: Topology Deployer
+      role: Owner
+      timeline: "July 2023 - Present"
+      repo: "https://github.com/vpatel95/topology-deployer.git"
+      summary: "A python based tool to deploy topologies on Bare Metal Servers using json configuration. Virtual Machines are provisioned using libvirt and networking is provisioned using linux and libvirt bridges"
+      tags: ["hobby"]
+
     - name: TCP Eyenet
       role: Owner
       timeline: "Aug 2020 - Dec 2020"
