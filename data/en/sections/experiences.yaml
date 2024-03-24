@@ -15,10 +15,11 @@ experiences:
         - designation: Software Engineer 3
           start: Dec 2022
           responsibilities:
-              - Involved in design and development of EVPN Type 5 support for JCNR datapath.
-              - Designed and incorporated SR-MPLS support for JCNR datapath increasing the feature portfolio.
-              - Reduced dependency on physical server by designing and developing a config based tool to deploy virtual topologies on BMS in matter of minutes. This also helped in significantly decreasing Opex.
-              - Debugged and fixed critical bugs to unblock the release cycle and mitigate potential business impact
+              - TI-LFA/FRR - Designed and developed FRR (Fast ReRoute) support in dataplane to enable TI-LFA in JCNR Datapath.
+              - EVPN-T5 - Involved in design and development of EVPN Type 5 support for JCNR datapath.
+              - SR-MPLS - Designed and incorporated SR-MPLS support for JCNR datapath.
+              - Virtual Topologies - Reduced dependency on physical server by designing and developing a config based tool to deploy virtual topologies on BMS in matter of minutes.
+              - Debugging - Debugged and fixed critical bugs to unblock the release cycles and mitigate potential business impact
 
     - company:
         name: VMware, Inc.

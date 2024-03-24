@@ -6,6 +6,10 @@ section:
     showOnNavbar: true
 
 skills:
+    - name: C++
+      logo: images/c++.png
+      summary: "Using as the main language for professional development. Personal favorite for projects and development."
+
     - name: C
       logo: images/c.png
       summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
@@ -16,10 +20,6 @@ skills:
 
     - name: Go
       logo: images/go.png
-      summary: "Using mainly for personal projects and as secondary language for professional development."
-
-    - name: C++
-      logo: images/c++.png
       summary: "Using mainly for personal projects and as secondary language for professional development."
 
     - name: Linux
