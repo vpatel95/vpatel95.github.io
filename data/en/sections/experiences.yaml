@@ -1,75 +1,93 @@
 section:
-    name: Experiences
-    id: experiences
-    enable: true
-    weight: 3
-    showOnNavbar: true
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
 
 experiences:
-    - company:
-        name: "Juniper Networks"
-        url: "https://www.juniper.net"
-        location: "Sunnyvale, California"
-        overview: "The Cloud-Native Router takes full advantage of container economics and operational efficiencies, giving service providers the flexibility they need to deploy 5G"
-      positions:
-        - designation: Software Engineer 3
-          start: Dec 2022
-          responsibilities:
-              - TI-LFA/FRR - Designed and developed FRR (Fast ReRoute) support in dataplane to enable TI-LFA in JCNR Datapath.
-              - EVPN-T5 - Involved in design and development of EVPN Type 5 support for JCNR datapath.
-              - SR-MPLS - Designed and incorporated SR-MPLS support for JCNR datapath.
-              - Virtual Topologies - Reduced dependency on physical server by designing and developing a config based tool to deploy virtual topologies on BMS in matter of minutes.
-              - Debugging - Debugged and fixed critical bugs to unblock the release cycles and mitigate potential business impact
+  - company:
+      name: "Cisco Systems"
+      url: "https://www.cisco.com"
+      location: "San Jose, California"
+      overview: "Cisco Silicon One is the only unifying architecture that delivers the highest bandwidth routing and web scale switching silicon in the industry."
+    positions:
+      - designation: Software Engineer
+        start: Dec 2024
+        responsibilities:
+          - Develop networking application for Cisco Silicon One"
 
-    - company:
-        name: VMware, Inc.
-        url: "https://www.vmware.com"
-        location: Palo Alto, California
-        overview: "VMware SD-WAN (formerly known as VeloCloud) converges networking and security delivered as a cloud-hosted service"
-      positions:
-          - designation: Member of Technical Staff
-            start: Jul 2021
-            start: Dec 2022
-            responsibilities:
-                - Dataplane Security - Contributing to the Federal charter in area of IKE/IPSEC. Worked on IKE library migration to achieve FIPS compliance
-                - IKE Logging - Designed and developed logging infrastructure to provide centralized control over information printed and enable per peer debugging for IKE/IPsec module
-                - Worked on Advanced Thread Protection and optimised existing logging infrastructure by introducing in memory log buffering to reduce file writes
+  - company:
+      name: "Juniper Networks"
+      url: "https://www.juniper.net"
+      location: "Sunnyvale, California"
+      overview: "The Cloud-Native Router takes full advantage of container economics and operational efficiencies, giving service providers the flexibility they need to deploy 5G"
+    positions:
+      - designation: Software Engineer 4
+        start: Jul 2024
+        end: Dec 2024
+        responsibilities:
+          - EVPN-T2 - Lead the end to end design and development of EVPN Type 2 support in JCNR datapath.
+          - Hierarchical Nexthops - Responsible for design and development of hierarchical (decoupled) nexthops support in JCNR’s platform independent translation layer.
+          - Mentoring - Mentored teammates and interns with product architecture, development and debugging.
+      - designation: Software Engineer 3
+        start: Dec 2022
+        responsibilities:
+          - TI-LFA/FRR - Designed and developed FRR (Fast ReRoute) support in dataplane to enable TI-LFA in JCNR Datapath.
+          - EVPN-T5 - Involved in design and development of EVPN Type 5 support for JCNR datapath.
+          - SR-MPLS - Designed and incorporated SR-MPLS support for JCNR datapath.
+          - Virtual Topologies - Reduced dependency on physical server by designing and developing a config based tool to deploy virtual topologies on BMS in matter of minutes.
+          - Debugging - Debugged and fixed critical bugs to unblock the release cycles and mitigate potential business impact
 
-    - company:
-        name: Lavelle Networks
-        url: "https://lavellenetworks.com"
-        location: Bangalore, India
-        overview: "Lavelle Networks is widely known for its SD-WAN solutions"
-      positions:
-          - designation: Software Engineer
-            start: May 2018
-            end: Jun 2019
-            responsibilities:
-                - Dynamic Path Selection - Dynamically choose path for application aware network traffic and support packet-by-packet load balancing at flow level using C
-                - Packet Loss Ratio - PLR calculation for path in data plane to assess path quality for flow-based load balancing using C
-                - App ID - Layer 7 application identification of tunneled enterprise network traffic in network device data plane for policy based control using C and Golang.
-                - Stats Engine - Collect statistics from data plane, perform analytic operations and send the data to SDN controller application for visualization using Python.
-                - Hierarchial Data Cache - Generic function cache middleware to improve the cache hit rates improving the overall cache hit ratio by 84% using redis and a custom in-memory cache
-                - Access Control - API authorization in SDN controller application based on multiple segregation of user’s role in organization using Python anf Ruby
-                - IDS - Control plane and SDN controller application module for IDS interconnected with each other to monitor and visualize real-time network traffic threats from data plane using Django, AngularJS (1.x) and Ruby
-          - designation: Software Engineer Intern
-            start: Dec 2017
-            end: Apr 2018
-            responsibilities:
-                - Micro services - Multiple micro services to manage and monitor enterprise networks
-                - Unit tests - Unit tests for all modules covering all test cases to deliver bug free product
-                - Penetration Testing - Black box and white box VAPT audits on end nodes of the network
+  - company:
+      name: VMware, Inc.
+      url: "https://www.vmware.com"
+      location: Palo Alto, California
+      overview: "VMware SD-WAN (formerly known as VeloCloud) converges networking and security delivered as a cloud-hosted service"
+    positions:
+      - designation: Member of Technical Staff
+        start: Jul 2021
+        end: Dec 2022
+        responsibilities:
+          - Dataplane Security - Contributing to the Federal charter in area of IKE/IPSEC. Worked on IKE library migration to achieve FIPS compliance
+          - IKE Logging - Designed and developed logging infrastructure to provide centralized control over information printed and enable per peer debugging for IKE/IPsec module
+          - Worked on Advanced Thread Protection and optimised existing logging infrastructure by introducing in memory log buffering to reduce file writes
 
-    - company:
-        name: MyRestica Technologies
-        url: "http://myrestica.com"
-        location: Vadodara, India
-        overview: "MyRestica provided Web Development and Search Engine Optimization solutions"
-      positions:
-          - designation: Web Development Intern
-            start: May 2016
-            end: Jun 2016
-            responsibilities:
-                - Designed and developed User Interface for a project
-                - Gained knowledge on frameworks such as CodeIgniter
-                - Learnt substantial usage of Bootstrap
+  - company:
+      name: Lavelle Networks
+      url: "https://lavellenetworks.com"
+      location: Bangalore, India
+      overview: "Lavelle Networks is widely known for its SD-WAN solutions"
+    positions:
+      - designation: Software Engineer
+        start: May 2018
+        end: Jun 2019
+        responsibilities:
+          - Dynamic Path Selection - Dynamically choose path for application aware network traffic and support packet-by-packet load balancing at flow level using C
+          - Packet Loss Ratio - PLR calculation for path in data plane to assess path quality for flow-based load balancing using C
+          - App ID - Layer 7 application identification of tunneled enterprise network traffic in network device data plane for policy based control using C and Golang.
+          - Stats Engine - Collect statistics from data plane, perform analytic operations and send the data to SDN controller application for visualization using Python.
+          - Hierarchial Data Cache - Generic function cache middleware to improve the cache hit rates improving the overall cache hit ratio by 84% using redis and a custom in-memory cache
+          - Access Control - API authorization in SDN controller application based on multiple segregation of user’s role in organization using Python anf Ruby
+          - IDS - Control plane and SDN controller application module for IDS interconnected with each other to monitor and visualize real-time network traffic threats from data plane using Django, AngularJS (1.x) and Ruby
+      - designation: Software Engineer Intern
+        start: Dec 2017
+        end: Apr 2018
+        responsibilities:
+          - Micro services - Multiple micro services to manage and monitor enterprise networks
+          - Unit tests - Unit tests for all modules covering all test cases to deliver bug free product
+          - Penetration Testing - Black box and white box VAPT audits on end nodes of the network
+
+  - company:
+      name: MyRestica Technologies
+      url: "http://myrestica.com"
+      location: Vadodara, India
+      overview: "MyRestica provided Web Development and Search Engine Optimization solutions"
+    positions:
+      - designation: Web Development Intern
+        start: May 2016
+        end: Jun 2016
+        responsibilities:
+          - Designed and developed User Interface for a project
+          - Gained knowledge on frameworks such as CodeIgniter
+          - Learnt substantial usage of Bootstrap

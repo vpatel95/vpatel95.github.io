@@ -6,13 +6,13 @@ section:
     showOnNavbar: true
     template: sections/about.html
 
-designation: Software Engineer 3
+designation: Software Engineer
 
 company:
-    name: Juniper Networks
-    url: "https://www.juniper.net"
+    name: Cisco Systems
+    url: "https://www.cisco.com"
 
-summary: "Currently working as Software Engineer with Contrail team at Juniper Networks. I have also worked on SD-WAN Data plane modules of Dynamic path selection and IPSEC. I am skilled in C, C++, Python and Golang"
+summary: "Currently working as Software Engineer at Cisco. I have previously worked on software router solution and SD-WAN dataplane's Fastpath, Path selection, IKE/IPSEC and IDS/IPS. I also have a history of working on software application development and systems programming in the computer networking industry. Skilled in C, C++, Python, Ruby on Rails, Golang."
 
 socialLinks:
     - name: Github
@@ -37,9 +37,9 @@ softSkills:
       color: sky
 
     - name: Problem Solving
-      percentage: 75
+      percentage: 95
       color: orange
 
     - name: Communication
-      percentage: 70
+      percentage: 80
       color: yellow
